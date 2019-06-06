@@ -1,15 +1,20 @@
 ---
-title: Le Wagon - Middleman
+title: Le Règlement - Site Officiel
 ---
+
+<%= stylesheet_link_tag "style.css" %>
+
+<link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
+        <p class="about">
+      <%= link_to "Youtube", "https://www.youtube.com/lereglement" %>
+      <%= link_to "Twitch", "      https://www.twitch.tv/lereglementlive" %>
+      <%= link_to "Instagram", "https://www.instagram.com/le_reglement/" %>
+      <%= link_to "Twitter", "https://twitter.com/lereglement" %>
     </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+  <%= image_tag "lereglement_simplified.png", :class => "logo" %>
   </div>
 </div>

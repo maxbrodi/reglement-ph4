@@ -1,0 +1,28 @@
+p{
+  color: white;
+}
+
+body {background-color: black;}
+
+.logo{
+  width: 33%;
+  padding: 10% 33%;
+}
+
+.about{
+  padding-left: 7%;
+  font-family: 'VT323', monospace;
+  font-size: 1.3em;
+}
+
+a{
+  padding-right: 1%;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FFAAFF;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
